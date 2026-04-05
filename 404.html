@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>AI Accident Detection System | Premium Dashboard</title>
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Socket.IO -->
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a3e 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+        
+        /* Premium Navbar */
+        .navbar {
+            background: rgba(15, 15, 35, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 15px 30px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #fff, #4cc9f0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .premium-badge {
+            background: linear-gradient(135deg, #ffd700, #ffb347);
+            color: #1a1a2e;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+        
+        /* Main Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 80px 20px 20px;
+        }
+        
+        /* Stats Cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .stat-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin: 10px 0;
+        }
+        
+        .stat-label {
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        
+        /* Main Content Grid */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 350px;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        /* Video Feed */
+        .video-card {
+            background: rgba(0,0,0,0.5);
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .video-container {
+            position: relative;
+            background: #000;
+            min-height: 400px;
+        }
+        
+        #video-feed {
+            width: 100%;
+            height: auto;
+            background: #000;
+        }
+        
+        .video-overlay {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(0,0,0,0.7);
+            padding: 5px 10px;
+            border-radius: 10px;
+            font-size: 0.8rem;
+        }
+        
+        /* Status Panel */
+        .status-card {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .status-item {
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .status-label {
+            color: #aaa;
+            font-size: 0.85rem;
+            margin-bottom: 5px;
+        }
+        
+        .status-value {
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        
+        .severity-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .severity-critical { background: #dc3545; color: white; }
+        .severity-major { background: #fd7e14; color: white; }
+        .severity-minor { background: #ffc107; color: #000; }
+        .severity-none { background: #28a745; color: white; }
+        
+        /* Progress Bar */
+        .progress-bar-custom {
+            height: 8px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            border-radius: 10px;
+            transition: width 0.3s ease;
+        }
+        
+        .progress-fill.high { background: #28a745; }
+        .progress-fill.medium { background: #ffc107; }
+        .progress-fill.low { background: #dc3545; }
+        
+        /* Buttons */
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #4361ee, #3f37c9);
+            color: white;
+        }
+        
+        .btn-danger {
+            background: linear-gradient(135deg, #dc3545, #c82333);
+            color: white;
+        }
+        
+        .btn-success {
+            background: linear-gradient(135deg, #28a745, #1e7e34);
+            color: white;
+        }
+        
+        .btn-warning {
+            background: linear-gradient(135deg, #ffc107, #e0a800);
+            color: #000;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        
+        /* Evidence Gallery */
+        .evidence-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .evidence-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        
+        .evidence-card:hover {
+            transform: scale(1.05);
+        }
+        
+        .evidence-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        
+        .evidence-info {
+            padding: 10px;
+        }
+        
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            z-index: 2000;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .modal.active {
+            display: flex;
+        }
+        
+        .modal-content {
+            background: #1a1a2e;
+            border-radius: 20px;
+            max-width: 500px;
+            width: 90%;
+            padding: 25px;
+        }
+        
+        /* Toast Notification */
+        .toast-notification {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #dc3545;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            z-index: 3000;
+            animation: slideIn 0.3s ease;
+            display: none;
+        }
+        
+        .toast-notification.show {
+            display: block;
+        }
+        
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        /* Form Inputs */
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 10px;
+            color: white;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .main-grid {
+                grid-template-columns: 1fr;
+            }
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        /* Loading Spinner */
+        .spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,0.3);
+            border-top-color: #fff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div>
+            <span class="navbar-brand">
+                <i class="fas fa-car-crash"></i> AI Accident Detection
+            </span>
+            <span class="premium-badge">PREMIUM</span>
+        </div>
+        <div style="font-size: 0.8rem;">
+            <i class="fas fa-circle" style="color: #28a745; font-size: 0.6rem;"></i> System Active
+        </div>
+    </nav>
+    
+    <div class="container">
+        <!-- Statistics Cards -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-car-crash"></i></div>
+                <div class="stat-value" id="totalAccidents">0</div>
+                <div class="stat-label">Total Accidents</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-bell"></i></div>
+                <div class="stat-value" id="totalAlerts">0</div>
+                <div class="stat-label">Alerts Sent</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-truck"></i></div>
+                <div class="stat-value" id="totalVehicles">0</div>
+                <div class="stat-label">Registered Vehicles</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-folder-open"></i></div>
+                <div class="stat-value" id="totalEvidence">0</div>
+                <div class="stat-label">Evidence Captured</div>
+            </div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="main-grid">
+            <!-- Video Feed Section -->
+            <div class="video-card">
+                <div class="video-container">
+                    <video id="video-feed" autoplay playsinline></video>
+                    <div class="video-overlay">
+                        <i class="fas fa-video"></i> Live Feed
+                    </div>
+                </div>
+                <div style="padding: 15px; display: flex; gap: 10px; flex-wrap: wrap;">
+                    <button class="btn btn-primary" id="startBtn" onclick="startDetection()">
+                        <i class="fas fa-play"></i> Start Detection
+                    </button>
+                    <button class="btn btn-danger" id="stopBtn" onclick="stopDetection()" disabled>
+                        <i class="fas fa-stop"></i> Stop
+                    </button>
+                    <button class="btn btn-success" id="captureBtn" onclick="captureEvidence()" disabled>
+                        <i class="fas fa-camera"></i> Capture
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Status Panel -->
+            <div class="status-card">
+                <h3 style="margin-bottom: 15px;"><i class="fas fa-chart-line"></i> Live Status</h3>
+                
+                <div class="status-item">
+                    <div class="status-label">Detection Status</div>
+                    <div class="status-value" id="detectionStatus">
+                        <span class="badge" style="background: #28a745; padding: 5px 10px; border-radius: 10px;">Ready</span>
+                    </div>
+                </div>
+                
+                <div class="status-item">
+                    <div class="status-label">Vehicle Count</div>
+                    <div class="status-value" id="vehicleCount">0</div>
+                </div>
+                
+                <div class="status-item">
+                    <div class="status-label">Confidence Score</div>
+                    <div class="status-value" id="confidenceScore">0%</div>
+                    <div class="progress-bar-custom">
+                        <div class="progress-fill low" id="confidenceBar" style="width: 0%"></div>
+                    </div>
+                </div>
+                
+                <div class="status-item">
+                    <div class="status-label">Severity Level</div>
+                    <div class="status-value">
+                        <span id="severityBadge" class="severity-badge severity-none">NONE</span>
+                    </div>
+                </div>
+                
+                <div class="status-item">
+                    <div class="status-label">Severity Score</div>
+                    <div class="status-value" id="severityScore">0%</div>
+                    <div class="progress-bar-custom">
+                        <div class="progress-fill" id="severityBar" style="width: 0%; background: #ffc107;"></div>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <button class="btn btn-warning" onclick="openVehicleModal()" style="width: 100%;">
+                        <i class="fas fa-plus"></i> Add Vehicle to Database
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Evidence Gallery -->
+        <div class="status-card" style="margin-top: 20px;">
+            <h3 style="margin-bottom: 15px;">
+                <i class="fas fa-folder-open"></i> Evidence Gallery
+                <button class="btn btn-primary" onclick="loadEvidence()" style="float: right; padding: 5px 10px; font-size: 0.8rem;">
+                    <i class="fas fa-sync-alt"></i> Refresh
+                </button>
+            </h3>
+            <div id="evidenceGallery" class="evidence-grid">
+                <div style="text-align: center; padding: 40px;">Loading evidence...</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Vehicle Modal -->
+    <div id="vehicleModal" class="modal">
+        <div class="modal-content">
+            <h3><i class="fas fa-truck"></i> Add Vehicle</h3>
+            <input type="text" id="licensePlate" class="form-input" placeholder="License Plate (e.g., TN01AB1234)">
+            <input type="text" id="ownerName" class="form-input" placeholder="Owner Name">
+            <input type="tel" id="phone" class="form-input" placeholder="Phone Number">
+            <input type="email" id="email" class="form-input" placeholder="Email Address">
+            <input type="text" id="vehicleModel" class="form-input" placeholder="Vehicle Model">
+            <input type="text" id="vehicleColor" class="form-input" placeholder="Vehicle Color">
+            <div style="display: flex; gap: 10px; margin-top: 15px;">
+                <button class="btn btn-success" onclick="addVehicle()">Save</button>
+                <button class="btn btn-danger" onclick="closeVehicleModal()">Cancel</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Toast Notification -->
+    <div id="toast" class="toast-notification">
+        <i class="fas fa-exclamation-triangle"></i> <span id="toastMessage">Accident Detected!</span>
+    </div>
+    
+    <script>
+        // ============================================
+        // COMPLETE FRONTEND JAVASCRIPT
+        // ============================================
+        
+        let socket = null;
+        let videoStream = null;
+        let detectionActive = false;
+        let processingInterval = null;
+        
+        // Initialize Socket.IO
+        function initSocket() {
+            socket = io('http://localhost:5000');
+            
+            socket.on('connect', function() {
+                console.log('Connected to server');
+                showNotification('Connected to detection system', 'success');
+            });
+            
+            socket.on('accident_alert', function(data) {
+                console.log('Accident alert:', data);
+                showAccidentAlert(data);
+                loadEvidence();
+                loadDashboardStats();
+            });
+            
+            socket.on('disconnect', function() {
+                console.log('Disconnected from server');
+            });
+        }
+        
+        // Load Dashboard Statistics
+        async function loadDashboardStats() {
+            try {
+                const response = await fetch('/api/dashboard/stats');
+                const stats = await response.json();
+                
+                document.getElementById('totalAccidents').textContent = stats.total_accidents || 0;
+                document.getElementById('totalAlerts').textContent = stats.total_alerts || 0;
+                document.getElementById('totalVehicles').textContent = stats.total_vehicles || 0;
+                document.getElementById('totalEvidence').textContent = stats.total_evidence || 0;
+            } catch (error) {
+                console.error('Error loading stats:', error);
+            }
+        }
+        
+        // Start Detection
+        async function startDetection() {
+            try {
+                videoStream = await navigator.mediaDevices.getUserMedia({ 
+                    video: { width: 640, height: 480 } 
+                });
+                
+                const videoElement = document.getElementById('video-feed');
+                videoElement.srcObject = videoStream;
+                
+                detectionActive = true;
+                document.getElementById('startBtn').disabled = true;
+                document.getElementById('stopBtn').disabled = false;
+                document.getElementById('captureBtn').disabled = false;
+                
+                updateDetectionStatus('active', 'Detection Active');
+                showNotification('Detection started', 'success');
+                
+                startFrameProcessing();
+                
+            } catch (error) {
+                console.error('Camera error:', error);
+                showNotification('Cannot access camera', 'error');
+                updateDetectionStatus('error', 'Camera Error');
+            }
+        }
+        
+        // Stop Detection
+        function stopDetection() {
+            detectionActive = false;
+            
+            if (processingInterval) {
+                clearInterval(processingInterval);
+                processingInterval = null;
+            }
+            
+            if (videoStream) {
+                videoStream.getTracks().forEach(track => track.stop());
+                videoStream = null;
+                document.getElementById('video-feed').srcObject = null;
+            }
+            
+            document.getElementById('startBtn').disabled = false;
+            document.getElementById('stopBtn').disabled = true;
+            document.getElementById('captureBtn').disabled = true;
+            
+            updateDetectionStatus('stopped', 'Detection Stopped');
+            showNotification('Detection stopped', 'warning');
+        }
+        
+        // Start Frame Processing
+        function startFrameProcessing() {
+            if (processingInterval) clearInterval(processingInterval);
+            
+            processingInterval = setInterval(async function() {
+                if (!detectionActive) return;
+                
+                const videoElement = document.getElementById('video-feed');
+                if (videoElement.videoWidth === 0) return;
+                
+                // Capture frame
+                const canvas = document.createElement('canvas');
+                canvas.width = videoElement.videoWidth;
+                canvas.height = videoElement.videoHeight;
+                const ctx = canvas.getContext('2d');
+                ctx.drawImage(videoElement, 0, 0);
+                
+                const imageData = canvas.toDataURL('image/jpeg', 0.8);
+                
+                try {
+                    const response = await fetch('/api/analyze', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ image: imageData })
+                    });
+                    
+                    const result = await response.json();
+                    updateUI(result);
+                    
+                } catch (error) {
+                    console.error('Analysis error:', error);
+                }
+            }, 500);
+        }
+        
+        // Update UI with detection results
+        function updateUI(result) {
+            document.getElementById('vehicleCount').textContent = result.vehicle_count || 0;
+            
+            const confidence = (result.confidence || 0) * 100;
+            document.getElementById('confidenceScore').textContent = `${confidence.toFixed(1)}%`;
+            
+            const confidenceBar = document.getElementById('confidenceBar');
+            confidenceBar.style.width = `${confidence}%`;
+            if (confidence >= 85) {
+                confidenceBar.className = 'progress-fill high';
+            } else if (confidence >= 65) {
+                confidenceBar.className = 'progress-fill medium';
+            } else {
+                confidenceBar.className = 'progress-fill low';
+            }
+            
+            if (result.accident_detected) {
+                const severity = result.severity || 'MINOR';
+                const severityScore = result.severity_score || 0;
+                
+                document.getElementById('severityScore').textContent = `${severityScore.toFixed(1)}%`;
+                document.getElementById('severityBar').style.width = `${severityScore}%`;
+                
+                const badge = document.getElementById('severityBadge');
+                badge.className = `severity-badge severity-${severity.toLowerCase()}`;
+                badge.textContent = severity;
+                
+                updateDetectionStatus('alert', `ACCIDENT DETECTED - ${severity}`);
+                
+                // Play alert sound
+                playAlertSound();
+            } else {
+                document.getElementById('severityScore').textContent = '0%';
+                document.getElementById('severityBar').style.width = '0%';
+                document.getElementById('severityBadge').className = 'severity-badge severity-none';
+                document.getElementById('severityBadge').textContent = 'NONE';
+                
+                if (detectionActive) {
+                    updateDetectionStatus('active', 'Monitoring');
+                }
+            }
+        }
+        
+        // Update detection status display
+        function updateDetectionStatus(status, message) {
+            const statusDiv = document.getElementById('detectionStatus');
+            let color = '#28a745';
+            if (status === 'alert') color = '#dc3545';
+            if (status === 'error') color = '#dc3545';
+            if (status === 'stopped') color = '#ffc107';
+            
+            statusDiv.innerHTML = `<span style="background: ${color}; padding: 5px 10px; border-radius: 10px;">${message}</span>`;
+        }
+        
+        // Capture Evidence
+        async function captureEvidence() {
+            const videoElement = document.getElementById('video-feed');
+            if (!videoElement.srcObject) {
+                showNotification('No active video feed', 'warning');
+                return;
+            }
+            
+            const canvas = document.createElement('canvas');
+            canvas.width = videoElement.videoWidth;
+            canvas.height = videoElement.videoHeight;
+            const ctx = canvas.getContext('2d');
+            ctx.drawImage(videoElement, 0, 0);
+            
+            canvas.toBlob(async (blob) => {
+                const formData = new FormData();
+                formData.append('evidence', blob, `evidence_${Date.now()}.jpg`);
+                
+                try {
+                    const response = await fetch('/api/save_evidence', {
+                        method: 'POST',
+                        body: formData
+                    });
+                    
+                    const result = await response.json();
+                    if (result.success) {
+                        showNotification('Evidence captured!', 'success');
+                        loadEvidence();
+                    }
+                } catch (error) {
+                    showNotification('Capture failed', 'error');
+                }
+            }, 'image/jpeg');
+        }
+        
+        // Load Evidence Gallery
+        async function loadEvidence() {
+            try {
+                const response = await fetch('/api/evidence/list');
+                const evidence = await response.json();
+                
+                const gallery = document.getElementById('evidenceGallery');
+                if (!evidence || evidence.length === 0) {
+                    gallery.innerHTML = '<div style="text-align: center; padding: 40px;">No evidence captured yet</div>';
+                    return;
+                }
+                
+                gallery.innerHTML = evidence.map(item => `
+                    <div class="evidence-card" onclick="viewEvidence('${item.id}')">
+                        <img src="/api/evidence/${item.id}/snapshot" alt="Evidence">
+                        <div class="evidence-info">
+                            <small>${new Date(item.timestamp).toLocaleString()}</small>
+                            <div>
+                                <span class="severity-badge severity-${item.severity?.toLowerCase() || 'none'}" style="font-size: 0.7rem;">${item.severity || 'UNKNOWN'}</span>
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+                
+            } catch (error) {
+                console.error('Error loading evidence:', error);
+            }
+        }
+        
+        // View Evidence
+        function viewEvidence(evidenceId) {
+            window.open(`/api/evidence/${evidenceId}/snapshot`, '_blank');
+        }
+        
+        // Open Vehicle Modal
+        function openVehicleModal() {
+            document.getElementById('vehicleModal').classList.add('active');
+        }
+        
+        // Close Vehicle Modal
+        function closeVehicleModal() {
+            document.getElementById('vehicleModal').classList.remove('active');
+            document.querySelectorAll('#vehicleModal input').forEach(input => input.value = '');
+        }
+        
+        // Add Vehicle
+        async function addVehicle() {
+            const vehicle = {
+                license_plate: document.getElementById('licensePlate').value.toUpperCase(),
+                owner_name: document.getElementById('ownerName').value,
+                phone: document.getElementById('phone').value,
+                email: document.getElementById('email').value,
+                vehicle_model: document.getElementById('vehicleModel').value,
+                vehicle_color: document.getElementById('vehicleColor').value
+            };
+            
+            if (!vehicle.license_plate || !vehicle.owner_name) {
+                showNotification('License plate and owner name required', 'warning');
+                return;
+            }
+            
+            try {
+                const response = await fetch('/api/vehicles', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(vehicle)
+                });
+                
+                const result = await response.json();
+                if (result.success) {
+                    showNotification('Vehicle added successfully', 'success');
+                    closeVehicleModal();
+                    loadDashboardStats();
+                } else {
+                    showNotification(result.message, 'error');
+                }
+            } catch (error) {
+                showNotification('Error adding vehicle', 'error');
+            }
+        }
+        
+        // Show Accident Alert
+        function showAccidentAlert(data) {
+            const toast = document.getElementById('toast');
+            const message = document.getElementById('toastMessage');
+            
+            message.innerHTML = `
+                <strong>🚨 ACCIDENT DETECTED!</strong><br>
+                Severity: ${data.severity}<br>
+                Confidence: ${(data.confidence * 100).toFixed(1)}%<br>
+                Time: ${new Date().toLocaleTimeString()}
+            `;
+            
+            toast.classList.add('show');
+            playAlertSound();
+            
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 8000);
+        }
+        
+        // Play Alert Sound
+        function playAlertSound() {
+            try {
+                const audio = new Audio('data:audio/wav;base64,U3RlYWx0aCBzb3VuZA==');
+                audio.play().catch(e => console.log('Audio not supported'));
+            } catch(e) {}
+        }
+        
+        // Show Notification
+        function showNotification(message, type) {
+            const toast = document.getElementById('toast');
+            const msgDiv = document.getElementById('toastMessage');
+            
+            const colors = {
+                success: '#28a745',
+                error: '#dc3545',
+                warning: '#ffc107',
+                info: '#17a2b8'
+            };
+            
+            toast.style.background = colors[type] || '#28a745';
+            msgDiv.innerHTML = message;
+            toast.classList.add('show');
+            
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+        
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            initSocket();
+            loadDashboardStats();
+            loadEvidence();
+            
+            setInterval(loadDashboardStats, 30000);
+            setInterval(loadEvidence, 10000);
+        });
+    </script>
+</body>
+</html>
