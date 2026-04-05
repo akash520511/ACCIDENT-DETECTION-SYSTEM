@@ -1,0 +1,2962 @@
+[
+  {
+    "timestamp": "2026-04-02T08:25:37.119371",
+    "severity": "MINOR",
+    "confidence": 0.8082185983657837,
+    "response_time": 0.40411829948425293,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 49.39011154091241,
+    "motion_score": 5.41093111038208
+  },
+  {
+    "timestamp": "2026-04-02T08:25:37.618037",
+    "severity": "MINOR",
+    "confidence": 0.7940805554389954,
+    "response_time": 0.3684356212615967,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.03477880345583,
+    "motion_score": 4.70402717590332
+  },
+  {
+    "timestamp": "2026-04-02T08:25:38.132448",
+    "severity": "MINOR",
+    "confidence": 0.7944836616516113,
+    "response_time": 0.36165595054626465,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.04455620146207,
+    "motion_score": 4.724182605743408
+  },
+  {
+    "timestamp": "2026-04-02T08:25:38.652485",
+    "severity": "MINOR",
+    "confidence": 0.7845386266708374,
+    "response_time": 0.37151455879211426,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 47.38994956491836,
+    "motion_score": 4.226932525634766
+  },
+  {
+    "timestamp": "2026-04-02T08:25:39.156479",
+    "severity": "MINOR",
+    "confidence": 0.7960694432258606,
+    "response_time": 0.34945082664489746,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.3171239310634,
+    "motion_score": 4.803471565246582
+  },
+  {
+    "timestamp": "2026-04-02T08:25:39.677702",
+    "severity": "MINOR",
+    "confidence": 0.7757415771484375,
+    "response_time": 0.3726811408996582,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 46.396286580004386,
+    "motion_score": 3.787079334259033
+  },
+  {
+    "timestamp": "2026-04-02T08:25:40.191539",
+    "severity": "MINOR",
+    "confidence": 0.758413553237915,
+    "response_time": 0.3788301944732666,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 53.7181496781108,
+    "motion_score": 2.9206783771514893
+  },
+  {
+    "timestamp": "2026-04-02T08:25:40.761159",
+    "severity": "MINOR",
+    "confidence": 0.7479203939437866,
+    "response_time": 0.3655078411102295,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 52.449782621900866,
+    "motion_score": 2.3960213661193848
+  },
+  {
+    "timestamp": "2026-04-02T08:25:41.340516",
+    "severity": "MINOR",
+    "confidence": 0.7417919039726257,
+    "response_time": 0.37374091148376465,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.61812671032943,
+    "motion_score": 2.0895957946777344
+  },
+  {
+    "timestamp": "2026-04-02T08:25:55.534359",
+    "severity": "MINOR",
+    "confidence": 0.7635243535041809,
+    "response_time": 0.2478621006011963,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 56.41589404870773,
+    "motion_score": 3.1762168407440186
+  },
+  {
+    "timestamp": "2026-04-02T08:25:55.904125",
+    "severity": "MINOR",
+    "confidence": 0.7490940690040588,
+    "response_time": 0.25259971618652344,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 54.79888247264067,
+    "motion_score": 2.4547054767608643
+  },
+  {
+    "timestamp": "2026-04-02T08:25:56.240947",
+    "severity": "MINOR",
+    "confidence": 0.7478295564651489,
+    "response_time": 0.22831344604492188,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 54.72551650849492,
+    "motion_score": 2.391477584838867
+  },
+  {
+    "timestamp": "2026-04-02T08:25:56.599945",
+    "severity": "MINOR",
+    "confidence": 0.744472086429596,
+    "response_time": 0.2530229091644287,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 54.36897830764336,
+    "motion_score": 2.2236056327819824
+  },
+  {
+    "timestamp": "2026-04-02T08:25:56.958011",
+    "severity": "MINOR",
+    "confidence": 0.7363297939300537,
+    "response_time": 0.2491767406463623,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 53.749135938806475,
+    "motion_score": 1.816490888595581
+  },
+  {
+    "timestamp": "2026-04-02T08:25:57.348530",
+    "severity": "MINOR",
+    "confidence": 0.7308332920074463,
+    "response_time": 0.2646019458770752,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 53.25844920148327,
+    "motion_score": 1.5416637659072876
+  },
+  {
+    "timestamp": "2026-04-02T08:25:57.743431",
+    "severity": "MINOR",
+    "confidence": 0.7301991581916809,
+    "response_time": 0.270491361618042,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 53.35817737794168,
+    "motion_score": 1.5099576711654663
+  },
+  {
+    "timestamp": "2026-04-02T08:25:58.132421",
+    "severity": "MINOR",
+    "confidence": 0.723993718624115,
+    "response_time": 0.266756534576416,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 52.76330525337347,
+    "motion_score": 1.1996855735778809
+  },
+  {
+    "timestamp": "2026-04-02T08:25:58.462299",
+    "severity": "MINOR",
+    "confidence": 0.7199276685714722,
+    "response_time": 0.21888399124145508,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 52.52242069098469,
+    "motion_score": 0.9963825941085815
+  },
+  {
+    "timestamp": "2026-04-02T08:25:58.780301",
+    "severity": "MINOR",
+    "confidence": 0.7139462232589722,
+    "response_time": 0.21957087516784668,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.972795140676695,
+    "motion_score": 0.6973124146461487
+  },
+  {
+    "timestamp": "2026-04-02T08:25:59.168395",
+    "severity": "MINOR",
+    "confidence": 0.7109690308570862,
+    "response_time": 0.27623724937438965,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.74440042014203,
+    "motion_score": 0.5484521389007568
+  },
+  {
+    "timestamp": "2026-04-02T08:25:59.534812",
+    "severity": "MINOR",
+    "confidence": 0.7124012112617493,
+    "response_time": 0.24984478950500488,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.78335553424711,
+    "motion_score": 0.6200620532035828
+  },
+  {
+    "timestamp": "2026-04-02T08:25:59.901224",
+    "severity": "MINOR",
+    "confidence": 0.7126010656356812,
+    "response_time": 0.24145746231079102,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.80289216561349,
+    "motion_score": 0.6300526857376099
+  },
+  {
+    "timestamp": "2026-04-02T08:26:00.250322",
+    "severity": "MINOR",
+    "confidence": 0.7159445285797119,
+    "response_time": 0.2441563606262207,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 52.082434406345875,
+    "motion_score": 0.7972260117530823
+  },
+  {
+    "timestamp": "2026-04-02T08:26:00.619612",
+    "severity": "MINOR",
+    "confidence": 0.7173019647598267,
+    "response_time": 0.24943852424621582,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 52.31083029126903,
+    "motion_score": 0.8650976419448853
+  },
+  {
+    "timestamp": "2026-04-02T08:26:00.999133",
+    "severity": "MINOR",
+    "confidence": 0.7178283929824829,
+    "response_time": 0.26546525955200195,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 52.1955828626762,
+    "motion_score": 0.8914207816123962
+  },
+  {
+    "timestamp": "2026-04-02T08:26:01.375343",
+    "severity": "MINOR",
+    "confidence": 0.715090274810791,
+    "response_time": 0.2461223602294922,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 52.04072137376037,
+    "motion_score": 0.754515528678894
+  },
+  {
+    "timestamp": "2026-04-02T08:26:01.743462",
+    "severity": "MINOR",
+    "confidence": 0.7113304734230042,
+    "response_time": 0.2536661624908447,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.650089813291544,
+    "motion_score": 0.5665244460105896
+  },
+  {
+    "timestamp": "2026-04-02T08:26:02.140587",
+    "severity": "MINOR",
+    "confidence": 0.7094269394874573,
+    "response_time": 0.27477049827575684,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.57453594975195,
+    "motion_score": 0.47134679555892944
+  },
+  {
+    "timestamp": "2026-04-02T08:26:03.050091",
+    "severity": "MINOR",
+    "confidence": 0.7072739005088806,
+    "response_time": 0.2522127628326416,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.276048348310326,
+    "motion_score": 0.3636961579322815
+  },
+  {
+    "timestamp": "2026-04-02T08:26:03.470180",
+    "severity": "MINOR",
+    "confidence": 0.7077277898788452,
+    "response_time": 0.3018662929534912,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.23874078918227,
+    "motion_score": 0.3863893151283264
+  },
+  {
+    "timestamp": "2026-04-02T08:26:03.844727",
+    "severity": "MINOR",
+    "confidence": 0.7095796465873718,
+    "response_time": 0.26155996322631836,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.46185842281651,
+    "motion_score": 0.47898316383361816
+  },
+  {
+    "timestamp": "2026-04-02T08:26:04.185559",
+    "severity": "MINOR",
+    "confidence": 0.7104784846305847,
+    "response_time": 0.22720980644226074,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.638283127640285,
+    "motion_score": 0.5239236354827881
+  },
+  {
+    "timestamp": "2026-04-02T08:26:04.559164",
+    "severity": "MINOR",
+    "confidence": 0.7098879814147949,
+    "response_time": 0.2504081726074219,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.479489425741036,
+    "motion_score": 0.4943985939025879
+  },
+  {
+    "timestamp": "2026-04-02T08:26:04.933504",
+    "severity": "MINOR",
+    "confidence": 0.7085936069488525,
+    "response_time": 0.24698734283447266,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.374463148968815,
+    "motion_score": 0.4296824038028717
+  },
+  {
+    "timestamp": "2026-04-02T08:26:05.277974",
+    "severity": "MINOR",
+    "confidence": 0.707077145576477,
+    "response_time": 0.21790695190429688,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.2667987602952,
+    "motion_score": 0.35385870933532715
+  },
+  {
+    "timestamp": "2026-04-02T08:26:05.661671",
+    "severity": "MINOR",
+    "confidence": 0.7067394256591797,
+    "response_time": 0.24046659469604492,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.29448823401798,
+    "motion_score": 0.3369717597961426
+  },
+  {
+    "timestamp": "2026-04-02T08:26:06.041994",
+    "severity": "MINOR",
+    "confidence": 0.7052561044692993,
+    "response_time": 0.24715185165405273,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.0892963813433,
+    "motion_score": 0.2628057897090912
+  },
+  {
+    "timestamp": "2026-04-02T08:26:06.454420",
+    "severity": "MINOR",
+    "confidence": 0.7051326632499695,
+    "response_time": 0.28579068183898926,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.107933268005596,
+    "motion_score": 0.2566344141960144
+  },
+  {
+    "timestamp": "2026-04-02T08:26:06.830814",
+    "severity": "MINOR",
+    "confidence": 0.7054055333137512,
+    "response_time": 0.2571277618408203,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.08387450221848,
+    "motion_score": 0.27027809619903564
+  },
+  {
+    "timestamp": "2026-04-02T08:26:07.223827",
+    "severity": "MINOR",
+    "confidence": 0.7056733965873718,
+    "response_time": 0.26378297805786133,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.11876942225865,
+    "motion_score": 0.28367120027542114
+  },
+  {
+    "timestamp": "2026-04-02T08:26:07.571010",
+    "severity": "MINOR",
+    "confidence": 0.7052584886550903,
+    "response_time": 0.22841238975524902,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.027520618846864,
+    "motion_score": 0.26292523741722107
+  },
+  {
+    "timestamp": "2026-04-02T08:26:07.946160",
+    "severity": "MINOR",
+    "confidence": 0.7049005627632141,
+    "response_time": 0.24873900413513184,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.08123700013869,
+    "motion_score": 0.2450280785560608
+  },
+  {
+    "timestamp": "2026-04-02T08:26:08.347691",
+    "severity": "MINOR",
+    "confidence": 0.7038561105728149,
+    "response_time": 0.2796187400817871,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.93461511559995,
+    "motion_score": 0.19280539453029633
+  },
+  {
+    "timestamp": "2026-04-02T08:26:08.770464",
+    "severity": "MINOR",
+    "confidence": 0.7032321691513062,
+    "response_time": 0.29299283027648926,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.90457182360371,
+    "motion_score": 0.16161052882671356
+  },
+  {
+    "timestamp": "2026-04-02T08:26:09.129344",
+    "severity": "MINOR",
+    "confidence": 0.7026023268699646,
+    "response_time": 0.24530506134033203,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.798408872820346,
+    "motion_score": 0.13011640310287476
+  },
+  {
+    "timestamp": "2026-04-02T08:26:09.495802",
+    "severity": "MINOR",
+    "confidence": 0.7025543451309204,
+    "response_time": 0.2417147159576416,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.81924487018418,
+    "motion_score": 0.12771721184253693
+  },
+  {
+    "timestamp": "2026-04-02T08:26:09.892745",
+    "severity": "MINOR",
+    "confidence": 0.7022143006324768,
+    "response_time": 0.2794220447540283,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.81373165907577,
+    "motion_score": 0.11071519553661346
+  },
+  {
+    "timestamp": "2026-04-02T08:26:10.288710",
+    "severity": "MINOR",
+    "confidence": 0.7022931575775146,
+    "response_time": 0.26447176933288574,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.79935899571951,
+    "motion_score": 0.11465718597173691
+  },
+  {
+    "timestamp": "2026-04-02T08:26:10.672493",
+    "severity": "MINOR",
+    "confidence": 0.7020871639251709,
+    "response_time": 0.25598955154418945,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.771801353770144,
+    "motion_score": 0.10435809940099716
+  },
+  {
+    "timestamp": "2026-04-02T08:26:11.082871",
+    "severity": "MINOR",
+    "confidence": 0.7015230059623718,
+    "response_time": 0.2790408134460449,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.679456431299116,
+    "motion_score": 0.07615045458078384
+  },
+  {
+    "timestamp": "2026-04-02T08:26:11.466492",
+    "severity": "MINOR",
+    "confidence": 0.7015441060066223,
+    "response_time": 0.253525972366333,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.68537265530322,
+    "motion_score": 0.07720602303743362
+  },
+  {
+    "timestamp": "2026-04-02T08:26:11.811583",
+    "severity": "MINOR",
+    "confidence": 0.7014089822769165,
+    "response_time": 0.23688507080078125,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.70309108995977,
+    "motion_score": 0.07044919580221176
+  },
+  {
+    "timestamp": "2026-04-02T08:26:12.213154",
+    "severity": "MINOR",
+    "confidence": 0.7013633251190186,
+    "response_time": 0.2738533020019531,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.627773791924625,
+    "motion_score": 0.06816709786653519
+  },
+  {
+    "timestamp": "2026-04-02T08:26:12.595196",
+    "severity": "MINOR",
+    "confidence": 0.7009642124176025,
+    "response_time": 0.25255846977233887,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.6136989475037,
+    "motion_score": 0.04821242392063141
+  },
+  {
+    "timestamp": "2026-04-02T08:26:13.015265",
+    "severity": "MINOR",
+    "confidence": 0.7009714245796204,
+    "response_time": 0.28109145164489746,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.62872471864824,
+    "motion_score": 0.04857128486037254
+  },
+  {
+    "timestamp": "2026-04-02T08:26:13.412537",
+    "severity": "MINOR",
+    "confidence": 0.7010841965675354,
+    "response_time": 0.2619295120239258,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.64211996400179,
+    "motion_score": 0.054210010915994644
+  },
+  {
+    "timestamp": "2026-04-02T08:26:13.798510",
+    "severity": "MINOR",
+    "confidence": 0.701858639717102,
+    "response_time": 0.25662803649902344,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.71110139103486,
+    "motion_score": 0.0929325520992279
+  },
+  {
+    "timestamp": "2026-04-02T08:26:14.200022",
+    "severity": "MINOR",
+    "confidence": 0.7015451192855835,
+    "response_time": 0.2677345275878906,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.68303650938344,
+    "motion_score": 0.07725664973258972
+  },
+  {
+    "timestamp": "2026-04-02T08:26:14.571088",
+    "severity": "MINOR",
+    "confidence": 0.7016026973724365,
+    "response_time": 0.24629759788513184,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.72086823727804,
+    "motion_score": 0.08013538271188736
+  },
+  {
+    "timestamp": "2026-04-02T08:26:14.941478",
+    "severity": "MINOR",
+    "confidence": 0.7010416388511658,
+    "response_time": 0.22892975807189941,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.63064624648467,
+    "motion_score": 0.052082594484090805
+  },
+  {
+    "timestamp": "2026-04-02T08:26:15.338856",
+    "severity": "MINOR",
+    "confidence": 0.7009552717208862,
+    "response_time": 0.26662778854370117,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.63171855551666,
+    "motion_score": 0.04776525869965553
+  },
+  {
+    "timestamp": "2026-04-02T08:26:15.755118",
+    "severity": "MINOR",
+    "confidence": 0.7006658315658569,
+    "response_time": 0.2733449935913086,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.581745199952884,
+    "motion_score": 0.033292222768068314
+  },
+  {
+    "timestamp": "2026-04-02T08:26:16.143941",
+    "severity": "MINOR",
+    "confidence": 0.7007406949996948,
+    "response_time": 0.2487649917602539,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.577658326862384,
+    "motion_score": 0.0370342843234539
+  },
+  {
+    "timestamp": "2026-04-02T08:26:16.560112",
+    "severity": "MINOR",
+    "confidence": 0.7009314894676208,
+    "response_time": 0.2737255096435547,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.617144761903404,
+    "motion_score": 0.04657517001032829
+  },
+  {
+    "timestamp": "2026-04-02T08:26:16.960507",
+    "severity": "MINOR",
+    "confidence": 0.7006680369377136,
+    "response_time": 0.26169252395629883,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.57761165863732,
+    "motion_score": 0.03340277448296547
+  },
+  {
+    "timestamp": "2026-04-02T08:26:18.151657",
+    "severity": "MINOR",
+    "confidence": 0.7007189393043518,
+    "response_time": 0.28505706787109375,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.62313402069282,
+    "motion_score": 0.03594617545604706
+  },
+  {
+    "timestamp": "2026-04-02T08:26:18.552738",
+    "severity": "MINOR",
+    "confidence": 0.7006935477256775,
+    "response_time": 0.2754058837890625,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.63106765019753,
+    "motion_score": 0.034676533192396164
+  },
+  {
+    "timestamp": "2026-04-02T08:26:19.010433",
+    "severity": "MINOR",
+    "confidence": 0.7006369829177856,
+    "response_time": 0.2967259883880615,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.630511514348136,
+    "motion_score": 0.03184836357831955
+  },
+  {
+    "timestamp": "2026-04-02T08:26:19.420512",
+    "severity": "MINOR",
+    "confidence": 0.7006407380104065,
+    "response_time": 0.2757718563079834,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.61146060295366,
+    "motion_score": 0.032037753611803055
+  },
+  {
+    "timestamp": "2026-04-02T08:26:19.820801",
+    "severity": "MINOR",
+    "confidence": 0.7004895806312561,
+    "response_time": 0.27612853050231934,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.588296127647524,
+    "motion_score": 0.024478798732161522
+  },
+  {
+    "timestamp": "2026-04-02T08:26:20.226967",
+    "severity": "MINOR",
+    "confidence": 0.7005531787872314,
+    "response_time": 0.255751371383667,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.59876170369738,
+    "motion_score": 0.027660124003887177
+  },
+  {
+    "timestamp": "2026-04-02T08:26:20.600195",
+    "severity": "MINOR",
+    "confidence": 0.7004021406173706,
+    "response_time": 0.23280787467956543,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.57582314968671,
+    "motion_score": 0.02010786347091198
+  },
+  {
+    "timestamp": "2026-04-02T08:26:21.022354",
+    "severity": "MINOR",
+    "confidence": 0.7004020810127258,
+    "response_time": 0.27832818031311035,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.56040327543373,
+    "motion_score": 0.02010459452867508
+  },
+  {
+    "timestamp": "2026-04-02T08:26:21.430063",
+    "severity": "MINOR",
+    "confidence": 0.7003653049468994,
+    "response_time": 0.26290154457092285,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.57251493600818,
+    "motion_score": 0.01826644316315651
+  },
+  {
+    "timestamp": "2026-04-02T08:26:21.835343",
+    "severity": "MINOR",
+    "confidence": 0.7004692554473877,
+    "response_time": 0.256472110748291,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.57979809483641,
+    "motion_score": 0.023462725803256035
+  },
+  {
+    "timestamp": "2026-04-02T08:26:22.221204",
+    "severity": "MINOR",
+    "confidence": 0.700652003288269,
+    "response_time": 0.25516724586486816,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.60860441292637,
+    "motion_score": 0.032601192593574524
+  },
+  {
+    "timestamp": "2026-04-02T08:26:22.618256",
+    "severity": "MINOR",
+    "confidence": 0.7004711031913757,
+    "response_time": 0.2584254741668701,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.608062530896675,
+    "motion_score": 0.023557057604193687
+  },
+  {
+    "timestamp": "2026-04-02T08:26:23.020827",
+    "severity": "MINOR",
+    "confidence": 0.700529932975769,
+    "response_time": 0.2629268169403076,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.625512288508666,
+    "motion_score": 0.02649698033928871
+  },
+  {
+    "timestamp": "2026-04-02T08:26:23.433265",
+    "severity": "MINOR",
+    "confidence": 0.7004597783088684,
+    "response_time": 0.2702219486236572,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.59286598841045,
+    "motion_score": 0.022988509386777878
+  },
+  {
+    "timestamp": "2026-04-02T08:26:23.813361",
+    "severity": "MINOR",
+    "confidence": 0.7003241181373596,
+    "response_time": 0.24203944206237793,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.55889560561553,
+    "motion_score": 0.01620677299797535
+  },
+  {
+    "timestamp": "2026-04-02T08:26:24.315200",
+    "severity": "MINOR",
+    "confidence": 0.7002823948860168,
+    "response_time": 0.36264777183532715,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.558077924436475,
+    "motion_score": 0.014119135215878487
+  },
+  {
+    "timestamp": "2026-04-02T08:26:25.811146",
+    "severity": "MINOR",
+    "confidence": 0.700237512588501,
+    "response_time": 1.2624094486236572,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.54450898490185,
+    "motion_score": 0.011875947006046772
+  },
+  {
+    "timestamp": "2026-04-02T08:26:26.458133",
+    "severity": "MINOR",
+    "confidence": 0.700464129447937,
+    "response_time": 0.387753963470459,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.56692325599939,
+    "motion_score": 0.02320719137787819
+  },
+  {
+    "timestamp": "2026-04-02T08:26:27.103857",
+    "severity": "MINOR",
+    "confidence": 0.7003090381622314,
+    "response_time": 0.376950740814209,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.5515965210466,
+    "motion_score": 0.01545377541333437
+  },
+  {
+    "timestamp": "2026-04-02T08:26:27.753294",
+    "severity": "MINOR",
+    "confidence": 0.7004840970039368,
+    "response_time": 0.390547513961792,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.58625493451007,
+    "motion_score": 0.024204479530453682
+  },
+  {
+    "timestamp": "2026-04-02T08:26:28.385612",
+    "severity": "MINOR",
+    "confidence": 0.700371265411377,
+    "response_time": 0.39951372146606445,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.591136872616936,
+    "motion_score": 0.018564900383353233
+  },
+  {
+    "timestamp": "2026-04-02T08:26:29.188671",
+    "severity": "MINOR",
+    "confidence": 0.7002795338630676,
+    "response_time": 0.5423808097839355,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.58531543364104,
+    "motion_score": 0.013975976966321468
+  },
+  {
+    "timestamp": "2026-04-02T08:26:29.802535",
+    "severity": "MINOR",
+    "confidence": 0.7003004550933838,
+    "response_time": 0.38186120986938477,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.61389051441864,
+    "motion_score": 0.015022175386548042
+  },
+  {
+    "timestamp": "2026-04-02T08:26:30.375145",
+    "severity": "MINOR",
+    "confidence": 0.7003023624420166,
+    "response_time": 0.34680771827697754,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.62005257090399,
+    "motion_score": 0.015118878334760666
+  },
+  {
+    "timestamp": "2026-04-02T08:26:30.992678",
+    "severity": "MINOR",
+    "confidence": 0.7003217339515686,
+    "response_time": 0.38743138313293457,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.614900207944466,
+    "motion_score": 0.01608699932694435
+  },
+  {
+    "timestamp": "2026-04-02T08:26:31.663938",
+    "severity": "MINOR",
+    "confidence": 0.7002478241920471,
+    "response_time": 0.4176657199859619,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.61471806217781,
+    "motion_score": 0.012390350922942162
+  },
+  {
+    "timestamp": "2026-04-02T08:26:32.284832",
+    "severity": "MINOR",
+    "confidence": 0.7004511952400208,
+    "response_time": 0.3896780014038086,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.6377990420105,
+    "motion_score": 0.022561730816960335
+  },
+  {
+    "timestamp": "2026-04-02T08:26:32.929485",
+    "severity": "MINOR",
+    "confidence": 0.7005729079246521,
+    "response_time": 0.40619826316833496,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.62083176682477,
+    "motion_score": 0.02864728681743145
+  },
+  {
+    "timestamp": "2026-04-02T08:26:33.552643",
+    "severity": "MINOR",
+    "confidence": 0.7004035115242004,
+    "response_time": 0.3761577606201172,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.60601139272385,
+    "motion_score": 0.020177247002720833
+  },
+  {
+    "timestamp": "2026-04-02T08:26:34.118098",
+    "severity": "MINOR",
+    "confidence": 0.700366199016571,
+    "response_time": 0.3582940101623535,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.58422104792574,
+    "motion_score": 0.01831040531396866
+  },
+  {
+    "timestamp": "2026-04-02T08:26:34.714892",
+    "severity": "MINOR",
+    "confidence": 0.7003742456436157,
+    "response_time": 0.3546264171600342,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.602230302883875,
+    "motion_score": 0.018712254241108894
+  },
+  {
+    "timestamp": "2026-04-02T08:26:35.291393",
+    "severity": "MINOR",
+    "confidence": 0.7004160284996033,
+    "response_time": 0.36031031608581543,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.613737781158726,
+    "motion_score": 0.02080276980996132
+  },
+  {
+    "timestamp": "2026-04-02T08:26:35.891428",
+    "severity": "MINOR",
+    "confidence": 0.7004261016845703,
+    "response_time": 0.36132335662841797,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.598704888953925,
+    "motion_score": 0.021304652094841003
+  },
+  {
+    "timestamp": "2026-04-02T08:26:36.494855",
+    "severity": "MINOR",
+    "confidence": 0.7003538608551025,
+    "response_time": 0.3710041046142578,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.5956097090132,
+    "motion_score": 0.017693448811769485
+  },
+  {
+    "timestamp": "2026-04-02T08:26:37.029183",
+    "severity": "MINOR",
+    "confidence": 0.700594961643219,
+    "response_time": 0.3093452453613281,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.6080360427015,
+    "motion_score": 0.029749790206551552
+  },
+  {
+    "timestamp": "2026-04-02T08:26:37.728420",
+    "severity": "MINOR",
+    "confidence": 0.7005470991134644,
+    "response_time": 0.43273186683654785,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.62038565494582,
+    "motion_score": 0.027354711666703224
+  },
+  {
+    "timestamp": "2026-04-02T08:26:38.401914",
+    "severity": "MINOR",
+    "confidence": 0.7004725933074951,
+    "response_time": 0.40304088592529297,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.61281494320455,
+    "motion_score": 0.023631317541003227
+  },
+  {
+    "timestamp": "2026-04-02T08:26:39.049876",
+    "severity": "MINOR",
+    "confidence": 0.7004595994949341,
+    "response_time": 0.39781713485717773,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.63527564609189,
+    "motion_score": 0.02297959476709366
+  },
+  {
+    "timestamp": "2026-04-02T08:26:39.719168",
+    "severity": "MINOR",
+    "confidence": 0.7005323171615601,
+    "response_time": 0.39726829528808594,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.62290723014999,
+    "motion_score": 0.02661634236574173
+  },
+  {
+    "timestamp": "2026-04-02T08:26:40.410222",
+    "severity": "MINOR",
+    "confidence": 0.7005619406700134,
+    "response_time": 0.3929126262664795,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.58566638735719,
+    "motion_score": 0.028098633512854576
+  },
+  {
+    "timestamp": "2026-04-02T08:26:41.014329",
+    "severity": "MINOR",
+    "confidence": 0.7007101774215698,
+    "response_time": 0.3261997699737549,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.644656537197676,
+    "motion_score": 0.035508934408426285
+  },
+  {
+    "timestamp": "2026-04-02T08:26:41.539406",
+    "severity": "MINOR",
+    "confidence": 0.70069819688797,
+    "response_time": 0.27497434616088867,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.62205802150774,
+    "motion_score": 0.034909579902887344
+  },
+  {
+    "timestamp": "2026-04-02T08:26:42.183530",
+    "severity": "MINOR",
+    "confidence": 0.7007538676261902,
+    "response_time": 0.35672998428344727,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.659360143876064,
+    "motion_score": 0.03769515082240105
+  },
+  {
+    "timestamp": "2026-04-02T08:26:42.871780",
+    "severity": "MINOR",
+    "confidence": 0.7010786533355713,
+    "response_time": 0.3867075443267822,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.7048941616952,
+    "motion_score": 0.053932737559080124
+  },
+  {
+    "timestamp": "2026-04-02T08:26:43.494830",
+    "severity": "MINOR",
+    "confidence": 0.7007727026939392,
+    "response_time": 0.39028239250183105,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.638221527478706,
+    "motion_score": 0.0386367104947567
+  },
+  {
+    "timestamp": "2026-04-02T08:26:44.105873",
+    "severity": "MINOR",
+    "confidence": 0.7008193731307983,
+    "response_time": 0.3750433921813965,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.61998931464353,
+    "motion_score": 0.040968313813209534
+  },
+  {
+    "timestamp": "2026-04-02T08:26:44.668972",
+    "severity": "MINOR",
+    "confidence": 0.7006111145019531,
+    "response_time": 0.3062272071838379,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.63238573750221,
+    "motion_score": 0.030556075274944305
+  },
+  {
+    "timestamp": "2026-04-02T08:26:45.317370",
+    "severity": "MINOR",
+    "confidence": 0.7008007168769836,
+    "response_time": 0.380817174911499,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.64127036062922,
+    "motion_score": 0.04003710672259331
+  },
+  {
+    "timestamp": "2026-04-02T08:26:45.944070",
+    "severity": "MINOR",
+    "confidence": 0.7006866335868835,
+    "response_time": 0.3832516670227051,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.6156764157279,
+    "motion_score": 0.03433194383978844
+  },
+  {
+    "timestamp": "2026-04-02T08:26:46.575673",
+    "severity": "MINOR",
+    "confidence": 0.700524628162384,
+    "response_time": 0.3843073844909668,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.61413452324079,
+    "motion_score": 0.02623152919113636
+  },
+  {
+    "timestamp": "2026-04-02T08:26:47.226398",
+    "severity": "MINOR",
+    "confidence": 0.7005079984664917,
+    "response_time": 0.4084329605102539,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.618213693054074,
+    "motion_score": 0.02539919875562191
+  },
+  {
+    "timestamp": "2026-04-02T08:26:47.881311",
+    "severity": "MINOR",
+    "confidence": 0.7006798982620239,
+    "response_time": 0.3741006851196289,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.64635572936205,
+    "motion_score": 0.033994682133197784
+  },
+  {
+    "timestamp": "2026-04-02T08:26:48.538683",
+    "severity": "MINOR",
+    "confidence": 0.7010625600814819,
+    "response_time": 0.40688252449035645,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.667306771798735,
+    "motion_score": 0.05312833562493324
+  },
+  {
+    "timestamp": "2026-04-02T08:26:49.252282",
+    "severity": "MINOR",
+    "confidence": 0.7008324265480042,
+    "response_time": 0.451214075088501,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.67056694149136,
+    "motion_score": 0.04162126034498215
+  },
+  {
+    "timestamp": "2026-04-02T08:26:49.897244",
+    "severity": "MINOR",
+    "confidence": 0.7006778120994568,
+    "response_time": 0.3995363712310791,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.65909069207793,
+    "motion_score": 0.03389211744070053
+  },
+  {
+    "timestamp": "2026-04-02T08:26:50.596645",
+    "severity": "MINOR",
+    "confidence": 0.700820803642273,
+    "response_time": 0.4152073860168457,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.66057164374004,
+    "motion_score": 0.041040755808353424
+  },
+  {
+    "timestamp": "2026-04-02T08:26:51.246512",
+    "severity": "MINOR",
+    "confidence": 0.7008348107337952,
+    "response_time": 0.3782176971435547,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.63730691195566,
+    "motion_score": 0.04174099117517471
+  },
+  {
+    "timestamp": "2026-04-02T08:26:51.946623",
+    "severity": "MINOR",
+    "confidence": 0.7007572054862976,
+    "response_time": 0.4473075866699219,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.647105484066934,
+    "motion_score": 0.03785998746752739
+  },
+  {
+    "timestamp": "2026-04-02T08:26:52.557999",
+    "severity": "MINOR",
+    "confidence": 0.7007273435592651,
+    "response_time": 0.35668039321899414,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.66292146702129,
+    "motion_score": 0.036368321627378464
+  },
+  {
+    "timestamp": "2026-04-02T08:26:53.190646",
+    "severity": "MINOR",
+    "confidence": 0.7007038593292236,
+    "response_time": 0.37035703659057617,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.669405523920766,
+    "motion_score": 0.03519337624311447
+  },
+  {
+    "timestamp": "2026-04-02T08:26:53.662339",
+    "severity": "MINOR",
+    "confidence": 0.7009211182594299,
+    "response_time": 0.25629687309265137,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.66499150769388,
+    "motion_score": 0.04605620354413986
+  },
+  {
+    "timestamp": "2026-04-02T08:26:54.089429",
+    "severity": "MINOR",
+    "confidence": 0.7006157636642456,
+    "response_time": 0.2731621265411377,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.64815614098159,
+    "motion_score": 0.030789583921432495
+  },
+  {
+    "timestamp": "2026-04-02T08:26:54.489895",
+    "severity": "MINOR",
+    "confidence": 0.7008885145187378,
+    "response_time": 0.24668312072753906,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.674431232082505,
+    "motion_score": 0.044425155967473984
+  },
+  {
+    "timestamp": "2026-04-02T08:26:54.902290",
+    "severity": "MINOR",
+    "confidence": 0.7007384896278381,
+    "response_time": 0.26608943939208984,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.671261475790146,
+    "motion_score": 0.036926187574863434
+  },
+  {
+    "timestamp": "2026-04-02T08:26:55.330691",
+    "severity": "MINOR",
+    "confidence": 0.7008591890335083,
+    "response_time": 0.26503825187683105,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.66103784354934,
+    "motion_score": 0.042959921061992645
+  },
+  {
+    "timestamp": "2026-04-02T08:26:55.759435",
+    "severity": "MINOR",
+    "confidence": 0.7009075880050659,
+    "response_time": 0.27155303955078125,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.6584253069663,
+    "motion_score": 0.04537976533174515
+  },
+  {
+    "timestamp": "2026-04-02T08:26:56.130503",
+    "severity": "MINOR",
+    "confidence": 0.7009683847427368,
+    "response_time": 0.21916580200195312,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.66027556332951,
+    "motion_score": 0.04842009395360947
+  },
+  {
+    "timestamp": "2026-04-02T08:26:56.528990",
+    "severity": "MINOR",
+    "confidence": 0.7012119889259338,
+    "response_time": 0.263533353805542,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.70417058063476,
+    "motion_score": 0.06060060113668442
+  },
+  {
+    "timestamp": "2026-04-02T08:26:56.937270",
+    "severity": "MINOR",
+    "confidence": 0.7009456157684326,
+    "response_time": 0.2555980682373047,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.69433342596019,
+    "motion_score": 0.047282442450523376
+  },
+  {
+    "timestamp": "2026-04-02T08:26:57.345927",
+    "severity": "MINOR",
+    "confidence": 0.7008779644966125,
+    "response_time": 0.24557781219482422,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.70201970255593,
+    "motion_score": 0.043898630887269974
+  },
+  {
+    "timestamp": "2026-04-02T08:26:57.750166",
+    "severity": "MINOR",
+    "confidence": 0.7013540267944336,
+    "response_time": 0.25609326362609863,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.7242195666808,
+    "motion_score": 0.0677010715007782
+  },
+  {
+    "timestamp": "2026-04-02T08:26:58.166670",
+    "severity": "MINOR",
+    "confidence": 0.7010191679000854,
+    "response_time": 0.26375460624694824,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.71802255181359,
+    "motion_score": 0.05095887556672096
+  },
+  {
+    "timestamp": "2026-04-02T08:26:58.606106",
+    "severity": "MINOR",
+    "confidence": 0.7013906836509705,
+    "response_time": 0.27970314025878906,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.73358449917367,
+    "motion_score": 0.06953570246696472
+  },
+  {
+    "timestamp": "2026-04-02T08:26:59.018669",
+    "severity": "MINOR",
+    "confidence": 0.7012511491775513,
+    "response_time": 0.2700021266937256,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.755448773613075,
+    "motion_score": 0.06255689263343811
+  },
+  {
+    "timestamp": "2026-04-02T08:26:59.414400",
+    "severity": "MINOR",
+    "confidence": 0.7015208005905151,
+    "response_time": 0.24892902374267578,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.778795198547904,
+    "motion_score": 0.07604038715362549
+  },
+  {
+    "timestamp": "2026-04-02T08:27:00.182040",
+    "severity": "MINOR",
+    "confidence": 0.7013133764266968,
+    "response_time": 0.3892700672149658,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.7141193842517,
+    "motion_score": 0.06567002087831497
+  },
+  {
+    "timestamp": "2026-04-02T08:27:01.585303",
+    "severity": "MINOR",
+    "confidence": 0.700946569442749,
+    "response_time": 1.1622893810272217,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.70552090217549,
+    "motion_score": 0.04732825234532356
+  },
+  {
+    "timestamp": "2026-04-02T08:27:02.205524",
+    "severity": "MINOR",
+    "confidence": 0.7054929137229919,
+    "response_time": 0.36957406997680664,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 51.258350586152126,
+    "motion_score": 0.27464714646339417
+  },
+  {
+    "timestamp": "2026-04-02T08:27:02.821088",
+    "severity": "MINOR",
+    "confidence": 0.7014396786689758,
+    "response_time": 0.37917590141296387,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.82704111877028,
+    "motion_score": 0.07198303937911987
+  },
+  {
+    "timestamp": "2026-04-02T08:27:03.447414",
+    "severity": "MINOR",
+    "confidence": 0.7014163136482239,
+    "response_time": 0.36683106422424316,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.81208996137001,
+    "motion_score": 0.07081632316112518
+  },
+  {
+    "timestamp": "2026-04-02T08:27:04.042786",
+    "severity": "MINOR",
+    "confidence": 0.7012547850608826,
+    "response_time": 0.3510875701904297,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.80668134888933,
+    "motion_score": 0.06274082511663437
+  },
+  {
+    "timestamp": "2026-04-02T08:27:04.655696",
+    "severity": "MINOR",
+    "confidence": 0.7012948989868164,
+    "response_time": 0.36951613426208496,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.81818558344246,
+    "motion_score": 0.06474554538726807
+  },
+  {
+    "timestamp": "2026-04-02T08:27:05.281754",
+    "severity": "MINOR",
+    "confidence": 0.7016186118125916,
+    "response_time": 0.3716704845428467,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.84156693386347,
+    "motion_score": 0.08093243092298508
+  },
+  {
+    "timestamp": "2026-04-02T08:27:05.905721",
+    "severity": "MINOR",
+    "confidence": 0.7015450596809387,
+    "response_time": 0.3717355728149414,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.79919487998007,
+    "motion_score": 0.07725311815738678
+  },
+  {
+    "timestamp": "2026-04-02T08:27:06.526393",
+    "severity": "MINOR",
+    "confidence": 0.7012643814086914,
+    "response_time": 0.3837311267852783,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.796093393823575,
+    "motion_score": 0.06322003901004791
+  },
+  {
+    "timestamp": "2026-04-02T08:27:07.127126",
+    "severity": "MINOR",
+    "confidence": 0.7012853026390076,
+    "response_time": 0.3592557907104492,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.765232368977884,
+    "motion_score": 0.06426552683115005
+  },
+  {
+    "timestamp": "2026-04-02T08:27:07.768461",
+    "severity": "MINOR",
+    "confidence": 0.701373815536499,
+    "response_time": 0.3935847282409668,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.787683618623426,
+    "motion_score": 0.06868989020586014
+  },
+  {
+    "timestamp": "2026-04-02T08:27:08.292214",
+    "severity": "MINOR",
+    "confidence": 0.7013768553733826,
+    "response_time": 0.2861795425415039,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.770639341474116,
+    "motion_score": 0.06884237378835678
+  },
+  {
+    "timestamp": "2026-04-02T08:27:08.894169",
+    "severity": "MINOR",
+    "confidence": 0.7012739181518555,
+    "response_time": 0.35932278633117676,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.74948827814384,
+    "motion_score": 0.06369674205780029
+  },
+  {
+    "timestamp": "2026-04-02T08:27:09.522709",
+    "severity": "MINOR",
+    "confidence": 0.7012158632278442,
+    "response_time": 0.37816596031188965,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.750547200352905,
+    "motion_score": 0.06079276651144028
+  },
+  {
+    "timestamp": "2026-04-02T08:27:10.138393",
+    "severity": "MINOR",
+    "confidence": 0.7015423774719238,
+    "response_time": 0.3625774383544922,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.808788331614025,
+    "motion_score": 0.0771191269159317
+  },
+  {
+    "timestamp": "2026-04-02T08:27:10.774726",
+    "severity": "MINOR",
+    "confidence": 0.7014428377151489,
+    "response_time": 0.37024855613708496,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.770003242369164,
+    "motion_score": 0.0721428245306015
+  },
+  {
+    "timestamp": "2026-04-02T08:27:11.407089",
+    "severity": "MINOR",
+    "confidence": 0.7016191482543945,
+    "response_time": 0.37177252769470215,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.77103040275186,
+    "motion_score": 0.08095763623714447
+  },
+  {
+    "timestamp": "2026-04-02T08:27:12.044631",
+    "severity": "MINOR",
+    "confidence": 0.7017038464546204,
+    "response_time": 0.3824179172515869,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.79448079035484,
+    "motion_score": 0.0851941928267479
+  },
+  {
+    "timestamp": "2026-04-02T08:27:12.676345",
+    "severity": "MINOR",
+    "confidence": 0.701813280582428,
+    "response_time": 0.37087392807006836,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.79938884904609,
+    "motion_score": 0.09066542983055115
+  },
+  {
+    "timestamp": "2026-04-02T08:27:13.296371",
+    "severity": "MINOR",
+    "confidence": 0.701659619808197,
+    "response_time": 0.37509822845458984,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.78731359964504,
+    "motion_score": 0.08298236131668091
+  },
+  {
+    "timestamp": "2026-04-02T08:27:13.923082",
+    "severity": "MINOR",
+    "confidence": 0.701598584651947,
+    "response_time": 0.36715030670166016,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.76136049222954,
+    "motion_score": 0.07992909103631973
+  },
+  {
+    "timestamp": "2026-04-02T08:27:14.562229",
+    "severity": "MINOR",
+    "confidence": 0.7015732526779175,
+    "response_time": 0.380751371383667,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.71764199925837,
+    "motion_score": 0.07866451889276505
+  },
+  {
+    "timestamp": "2026-04-02T08:27:15.224711",
+    "severity": "MINOR",
+    "confidence": 0.7016931772232056,
+    "response_time": 0.39106106758117676,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.763706417584686,
+    "motion_score": 0.08465883880853653
+  },
+  {
+    "timestamp": "2026-04-02T08:27:15.872241",
+    "severity": "MINOR",
+    "confidence": 0.7017700672149658,
+    "response_time": 0.39629244804382324,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.73794228879513,
+    "motion_score": 0.08850347995758057
+  },
+  {
+    "timestamp": "2026-04-02T08:27:16.528195",
+    "severity": "MINOR",
+    "confidence": 0.701831579208374,
+    "response_time": 0.38738369941711426,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.79314816528106,
+    "motion_score": 0.09157949686050415
+  },
+  {
+    "timestamp": "2026-04-02T08:27:17.176777",
+    "severity": "MINOR",
+    "confidence": 0.7017050385475159,
+    "response_time": 0.37786126136779785,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 50.729569801532506,
+    "motion_score": 0.0852532610297203
+  },
+  {
+    "timestamp": "2026-04-05T13:24:57.483832",
+    "severity": "MINOR",
+    "confidence": 0.8149048686027527,
+    "response_time": 0.42409706115722656,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 49.19458770751953,
+    "motion_score": 5.745242595672607
+  },
+  {
+    "timestamp": "2026-04-05T13:24:58.160954",
+    "severity": "MINOR",
+    "confidence": 0.8112300634384155,
+    "response_time": 0.420825719833374,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.79195022583008,
+    "motion_score": 5.561502933502197
+  },
+  {
+    "timestamp": "2026-04-05T13:25:08.141928",
+    "severity": "MINOR",
+    "confidence": 0.8392981886863708,
+    "response_time": 0.3749508857727051,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 51.58032014634874,
+    "motion_score": 6.96491003036499
+  },
+  {
+    "timestamp": "2026-04-05T13:25:08.680445",
+    "severity": "MINOR",
+    "confidence": 0.8283457159996033,
+    "response_time": 0.36309337615966797,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 50.438199785020615,
+    "motion_score": 6.417287826538086
+  },
+  {
+    "timestamp": "2026-04-05T13:25:09.248983",
+    "severity": "MINOR",
+    "confidence": 0.825364351272583,
+    "response_time": 0.3810110092163086,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 50.10143364800347,
+    "motion_score": 6.268218517303467
+  },
+  {
+    "timestamp": "2026-04-05T13:25:09.874637",
+    "severity": "MINOR",
+    "confidence": 0.8217343091964722,
+    "response_time": 0.41587305068969727,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 49.72876993815104,
+    "motion_score": 6.086716175079346
+  },
+  {
+    "timestamp": "2026-04-05T13:25:10.467813",
+    "severity": "MINOR",
+    "confidence": 0.812063992023468,
+    "response_time": 0.42150115966796875,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.824240366617836,
+    "motion_score": 5.603200912475586
+  },
+  {
+    "timestamp": "2026-04-05T13:25:10.998914",
+    "severity": "MINOR",
+    "confidence": 0.8126129508018494,
+    "response_time": 0.34412693977355957,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.77084392971463,
+    "motion_score": 5.630648136138916
+  },
+  {
+    "timestamp": "2026-04-05T13:25:11.537829",
+    "severity": "MINOR",
+    "confidence": 0.8059419989585876,
+    "response_time": 0.3037993907928467,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.17731645372179,
+    "motion_score": 5.29710054397583
+  },
+  {
+    "timestamp": "2026-04-05T13:25:15.738116",
+    "severity": "MINOR",
+    "confidence": 0.8119880557060242,
+    "response_time": 0.25650954246520996,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 59.27264005224964,
+    "motion_score": 5.599404335021973
+  },
+  {
+    "timestamp": "2026-04-05T13:25:16.163698",
+    "severity": "MINOR",
+    "confidence": 0.8098323941230774,
+    "response_time": 0.2601962089538574,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 49.007880509563016,
+    "motion_score": 5.491620063781738
+  },
+  {
+    "timestamp": "2026-04-05T13:25:16.812579",
+    "severity": "MINOR",
+    "confidence": 0.8090294003486633,
+    "response_time": 0.4871697425842285,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.96197222995707,
+    "motion_score": 5.451470375061035
+  },
+  {
+    "timestamp": "2026-04-05T13:25:17.247580",
+    "severity": "MINOR",
+    "confidence": 0.8073207139968872,
+    "response_time": 0.27515697479248047,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 58.89372696792407,
+    "motion_score": 5.366036415100098
+  },
+  {
+    "timestamp": "2026-04-05T13:25:17.709521",
+    "severity": "MINOR",
+    "confidence": 0.8034396767616272,
+    "response_time": 0.2807443141937256,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.65088987310694,
+    "motion_score": 5.17198371887207
+  },
+  {
+    "timestamp": "2026-04-05T13:25:18.156691",
+    "severity": "MINOR",
+    "confidence": 0.8016710877418518,
+    "response_time": 0.2838728427886963,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.40023593182219,
+    "motion_score": 5.083555698394775
+  },
+  {
+    "timestamp": "2026-04-05T13:25:18.625390",
+    "severity": "MINOR",
+    "confidence": 0.8029733300209045,
+    "response_time": 0.29963135719299316,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.65145150063578,
+    "motion_score": 5.1486687660217285
+  },
+  {
+    "timestamp": "2026-04-05T13:25:19.087648",
+    "severity": "MINOR",
+    "confidence": 0.8032220005989075,
+    "response_time": 0.2890200614929199,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 58.68306489308691,
+    "motion_score": 5.161100387573242
+  },
+  {
+    "timestamp": "2026-04-05T13:25:19.532547",
+    "severity": "MINOR",
+    "confidence": 0.8058194518089294,
+    "response_time": 0.2628316879272461,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 49.10558377279064,
+    "motion_score": 5.2909722328186035
+  },
+  {
+    "timestamp": "2026-04-05T13:25:19.978467",
+    "severity": "MINOR",
+    "confidence": 0.8050217032432556,
+    "response_time": 0.2830934524536133,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 59.09598616075497,
+    "motion_score": 5.251087188720703
+  },
+  {
+    "timestamp": "2026-04-05T13:25:20.445745",
+    "severity": "MINOR",
+    "confidence": 0.8047245740890503,
+    "response_time": 0.28365087509155273,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 49.13201870790265,
+    "motion_score": 5.236229419708252
+  },
+  {
+    "timestamp": "2026-04-05T13:25:20.899176",
+    "severity": "MINOR",
+    "confidence": 0.8047477602958679,
+    "response_time": 0.29206180572509766,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 59.23182223731126,
+    "motion_score": 5.237387657165527
+  },
+  {
+    "timestamp": "2026-04-05T13:25:21.357901",
+    "severity": "MINOR",
+    "confidence": 0.8020989298820496,
+    "response_time": 0.2719252109527588,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 49.07165870624669,
+    "motion_score": 5.104946136474609
+  },
+  {
+    "timestamp": "2026-04-05T13:25:21.805079",
+    "severity": "MINOR",
+    "confidence": 0.8005489706993103,
+    "response_time": 0.28180503845214844,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.76885771978046,
+    "motion_score": 5.027447700500488
+  },
+  {
+    "timestamp": "2026-04-05T13:25:22.246803",
+    "severity": "MINOR",
+    "confidence": 0.7996995449066162,
+    "response_time": 0.2851080894470215,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.77127843703667,
+    "motion_score": 4.9849772453308105
+  },
+  {
+    "timestamp": "2026-04-05T13:25:22.678362",
+    "severity": "MINOR",
+    "confidence": 0.8000921607017517,
+    "response_time": 0.27021050453186035,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.760157990415024,
+    "motion_score": 5.004608631134033
+  },
+  {
+    "timestamp": "2026-04-05T13:25:23.106666",
+    "severity": "MINOR",
+    "confidence": 0.8011713624000549,
+    "response_time": 0.2665107250213623,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 49.130486597822156,
+    "motion_score": 5.058568477630615
+  },
+  {
+    "timestamp": "2026-04-05T13:25:23.556685",
+    "severity": "MINOR",
+    "confidence": 0.7988797426223755,
+    "response_time": 0.28732824325561523,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.74063180212173,
+    "motion_score": 4.943988800048828
+  },
+  {
+    "timestamp": "2026-04-05T13:25:24.063408",
+    "severity": "MINOR",
+    "confidence": 0.7965315580368042,
+    "response_time": 0.3156869411468506,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 58.57872956915034,
+    "motion_score": 4.8265790939331055
+  },
+  {
+    "timestamp": "2026-04-05T13:25:24.571303",
+    "severity": "MINOR",
+    "confidence": 0.798514723777771,
+    "response_time": 0.3021116256713867,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 58.74209843272798,
+    "motion_score": 4.925736904144287
+  },
+  {
+    "timestamp": "2026-04-05T13:25:25.093459",
+    "severity": "MINOR",
+    "confidence": 0.7990972995758057,
+    "response_time": 0.3237748146057129,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 58.84943395883335,
+    "motion_score": 4.954865455627441
+  },
+  {
+    "timestamp": "2026-04-05T13:25:25.562288",
+    "severity": "MINOR",
+    "confidence": 0.7990137934684753,
+    "response_time": 0.27976202964782715,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 58.74047651778636,
+    "motion_score": 4.950690269470215
+  },
+  {
+    "timestamp": "2026-04-05T13:25:26.093064",
+    "severity": "MINOR",
+    "confidence": 0.7986782193183899,
+    "response_time": 0.3422737121582031,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 58.73372054075965,
+    "motion_score": 4.933910369873047
+  },
+  {
+    "timestamp": "2026-04-05T13:25:26.588340",
+    "severity": "MINOR",
+    "confidence": 0.7988626956939697,
+    "response_time": 0.29698848724365234,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 58.721647904359735,
+    "motion_score": 4.943134784698486
+  },
+  {
+    "timestamp": "2026-04-05T13:25:27.061789",
+    "severity": "MINOR",
+    "confidence": 0.8010435104370117,
+    "response_time": 0.29259347915649414,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.92054635350215,
+    "motion_score": 5.052176475524902
+  },
+  {
+    "timestamp": "2026-04-05T13:25:27.527341",
+    "severity": "MINOR",
+    "confidence": 0.7990996837615967,
+    "response_time": 0.2979464530944824,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.72975703305761,
+    "motion_score": 4.954983711242676
+  },
+  {
+    "timestamp": "2026-04-05T13:25:27.986925",
+    "severity": "MINOR",
+    "confidence": 0.8019282221794128,
+    "response_time": 0.2939751148223877,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.77671555223492,
+    "motion_score": 5.096410751342773
+  },
+  {
+    "timestamp": "2026-04-05T13:25:28.452605",
+    "severity": "MINOR",
+    "confidence": 0.8020866513252258,
+    "response_time": 0.2917153835296631,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.936314144528055,
+    "motion_score": 5.1043314933776855
+  },
+  {
+    "timestamp": "2026-04-05T13:25:28.926694",
+    "severity": "MINOR",
+    "confidence": 0.8004302382469177,
+    "response_time": 0.2963097095489502,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 58.51340357462565,
+    "motion_score": 5.021512508392334
+  },
+  {
+    "timestamp": "2026-04-05T13:25:32.299871",
+    "severity": "MINOR",
+    "confidence": 0.8107101321220398,
+    "response_time": 0.28443074226379395,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 59.53745383472496,
+    "motion_score": 5.535505771636963
+  },
+  {
+    "timestamp": "2026-04-05T13:25:32.766941",
+    "severity": "MINOR",
+    "confidence": 0.8087342381477356,
+    "response_time": 0.2663908004760742,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 59.30874912575864,
+    "motion_score": 5.436713218688965
+  },
+  {
+    "timestamp": "2026-04-05T13:25:33.239661",
+    "severity": "MINOR",
+    "confidence": 0.8132261037826538,
+    "response_time": 0.27361226081848145,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 59.716818491617836,
+    "motion_score": 5.661305904388428
+  },
+  {
+    "timestamp": "2026-04-05T13:25:33.723843",
+    "severity": "MINOR",
+    "confidence": 0.811437726020813,
+    "response_time": 0.288360595703125,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 59.42121230674754,
+    "motion_score": 5.571887969970703
+  },
+  {
+    "timestamp": "2026-04-05T13:25:34.190026",
+    "severity": "MINOR",
+    "confidence": 0.8061835169792175,
+    "response_time": 0.27279043197631836,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 58.803355322943794,
+    "motion_score": 5.309175968170166
+  },
+  {
+    "timestamp": "2026-04-05T13:25:34.673357",
+    "severity": "MINOR",
+    "confidence": 0.8072834014892578,
+    "response_time": 0.28579044342041016,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 58.95913441975912,
+    "motion_score": 5.364170074462891
+  },
+  {
+    "timestamp": "2026-04-05T13:25:35.151880",
+    "severity": "MINOR",
+    "confidence": 0.8047906756401062,
+    "response_time": 0.29440975189208984,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 58.4370316222123,
+    "motion_score": 5.239534378051758
+  },
+  {
+    "timestamp": "2026-04-05T13:25:35.605074",
+    "severity": "MAJOR",
+    "confidence": 0.8344046473503113,
+    "response_time": 0.262772798538208,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 61.44621870252821,
+    "motion_score": 6.72023344039917
+  },
+  {
+    "timestamp": "2026-04-05T13:25:38.642908",
+    "severity": "MAJOR",
+    "confidence": 0.8380379676818848,
+    "response_time": 0.28501033782958984,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 61.868902842203774,
+    "motion_score": 6.9018988609313965
+  },
+  {
+    "timestamp": "2026-04-05T13:25:39.121265",
+    "severity": "MAJOR",
+    "confidence": 0.8691344261169434,
+    "response_time": 0.27721357345581055,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 65.16908688015408,
+    "motion_score": 8.456722259521484
+  },
+  {
+    "timestamp": "2026-04-05T13:25:39.611597",
+    "severity": "MAJOR",
+    "confidence": 0.8784337639808655,
+    "response_time": 0.28711509704589844,
+    "vehicle_count": 5,
+    "license_plate": null,
+    "severity_score": 66.16922251383464,
+    "motion_score": 8.9216890335083
+  },
+  {
+    "timestamp": "2026-04-05T13:25:40.268354",
+    "severity": "MAJOR",
+    "confidence": 0.9218888878822327,
+    "response_time": 0.3178696632385254,
+    "vehicle_count": 5,
+    "license_plate": null,
+    "severity_score": 68.50086805555556,
+    "motion_score": 11.09444522857666
+  },
+  {
+    "timestamp": "2026-04-05T13:25:40.813052",
+    "severity": "MAJOR",
+    "confidence": 0.9222376942634583,
+    "response_time": 0.2998356819152832,
+    "vehicle_count": 5,
+    "license_plate": null,
+    "severity_score": 68.61447482638889,
+    "motion_score": 11.111884117126465
+  },
+  {
+    "timestamp": "2026-04-05T13:25:43.791399",
+    "severity": "MAJOR",
+    "confidence": 0.9511064887046814,
+    "response_time": 0.248915433883667,
+    "vehicle_count": 4,
+    "license_plate": null,
+    "severity_score": 68.65961371527777,
+    "motion_score": 12.55532455444336
+  },
+  {
+    "timestamp": "2026-04-05T13:25:44.255445",
+    "severity": "MAJOR",
+    "confidence": 0.9625354409217834,
+    "response_time": 0.25839996337890625,
+    "vehicle_count": 5,
+    "license_plate": null,
+    "severity_score": 68.57682291666667,
+    "motion_score": 13.126770973205566
+  },
+  {
+    "timestamp": "2026-04-05T13:25:44.747498",
+    "severity": "MAJOR",
+    "confidence": 0.9202349781990051,
+    "response_time": 0.2668774127960205,
+    "vehicle_count": 5,
+    "license_plate": null,
+    "severity_score": 68.41134982638889,
+    "motion_score": 11.011749267578125
+  },
+  {
+    "timestamp": "2026-04-05T13:25:45.215308",
+    "severity": "MAJOR",
+    "confidence": 0.9146651029586792,
+    "response_time": 0.24613142013549805,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 68.52647569444444,
+    "motion_score": 10.733256340026855
+  },
+  {
+    "timestamp": "2026-04-05T13:25:45.691938",
+    "severity": "MAJOR",
+    "confidence": 0.9074257612228394,
+    "response_time": 0.2821371555328369,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 68.58506944444444,
+    "motion_score": 10.371289253234863
+  },
+  {
+    "timestamp": "2026-04-05T13:25:46.120560",
+    "severity": "MINOR",
+    "confidence": 0.9012517333030701,
+    "response_time": 0.2536172866821289,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 58.594401041666664,
+    "motion_score": 10.062588691711426
+  },
+  {
+    "timestamp": "2026-04-05T13:25:46.545664",
+    "severity": "MINOR",
+    "confidence": 0.8920486569404602,
+    "response_time": 0.26303553581237793,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 57.86622195773654,
+    "motion_score": 9.602435111999512
+  },
+  {
+    "timestamp": "2026-04-05T13:25:47.010282",
+    "severity": "MAJOR",
+    "confidence": 0.8928483128547668,
+    "response_time": 0.2910914421081543,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 67.97156863742404,
+    "motion_score": 9.642415046691895
+  },
+  {
+    "timestamp": "2026-04-05T13:25:50.005093",
+    "severity": "MAJOR",
+    "confidence": 0.8845483660697937,
+    "response_time": 0.28864598274230957,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 67.11477703518338,
+    "motion_score": 9.227418899536133
+  },
+  {
+    "timestamp": "2026-04-05T13:25:50.442686",
+    "severity": "MAJOR",
+    "confidence": 0.8831884264945984,
+    "response_time": 0.25888848304748535,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 66.86583116319444,
+    "motion_score": 9.159422874450684
+  },
+  {
+    "timestamp": "2026-04-05T13:25:51.155936",
+    "severity": "MAJOR",
+    "confidence": 0.8886080384254456,
+    "response_time": 0.3929307460784912,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 67.48732079399957,
+    "motion_score": 9.430400848388672
+  },
+  {
+    "timestamp": "2026-04-05T13:25:51.849157",
+    "severity": "MAJOR",
+    "confidence": 0.890999436378479,
+    "response_time": 0.38620734214782715,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 67.7245110405816,
+    "motion_score": 9.549972534179688
+  },
+  {
+    "timestamp": "2026-04-05T13:25:52.590701",
+    "severity": "MINOR",
+    "confidence": 0.8878639936447144,
+    "response_time": 0.4446084499359131,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 57.40955522325304,
+    "motion_score": 9.393199920654297
+  },
+  {
+    "timestamp": "2026-04-05T13:25:53.413412",
+    "severity": "MINOR",
+    "confidence": 0.8818314075469971,
+    "response_time": 0.5144541263580322,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 56.76680246988932,
+    "motion_score": 9.091571807861328
+  },
+  {
+    "timestamp": "2026-04-05T13:25:54.180171",
+    "severity": "MAJOR",
+    "confidence": 0.8554275035858154,
+    "response_time": 0.4706401824951172,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 64.21376207139757,
+    "motion_score": 7.771376609802246
+  },
+  {
+    "timestamp": "2026-04-05T13:25:57.458400",
+    "severity": "MAJOR",
+    "confidence": 0.8398750424385071,
+    "response_time": 0.43138790130615234,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 62.60491519504123,
+    "motion_score": 6.9937543869018555
+  },
+  {
+    "timestamp": "2026-04-05T13:25:58.119897",
+    "severity": "MAJOR",
+    "confidence": 0.8243919610977173,
+    "response_time": 0.3856635093688965,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 60.86324267917209,
+    "motion_score": 6.219598293304443
+  },
+  {
+    "timestamp": "2026-04-05T13:25:58.794616",
+    "severity": "MINOR",
+    "confidence": 0.8073555827140808,
+    "response_time": 0.3941335678100586,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 49.04697630140517,
+    "motion_score": 5.367781162261963
+  },
+  {
+    "timestamp": "2026-04-05T13:25:59.438016",
+    "severity": "MINOR",
+    "confidence": 0.7903969287872314,
+    "response_time": 0.4250345230102539,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 47.22708723280165,
+    "motion_score": 4.519847393035889
+  },
+  {
+    "timestamp": "2026-04-05T13:26:00.241161",
+    "severity": "MINOR",
+    "confidence": 0.771803081035614,
+    "response_time": 0.5415356159210205,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 55.227618323432075,
+    "motion_score": 3.5901551246643066
+  },
+  {
+    "timestamp": "2026-04-05T13:26:01.071398",
+    "severity": "MINOR",
+    "confidence": 0.757044792175293,
+    "response_time": 0.5117919445037842,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 43.69004779391818,
+    "motion_score": 2.8522391319274902
+  },
+  {
+    "timestamp": "2026-04-05T13:26:01.771705",
+    "severity": "MINOR",
+    "confidence": 0.7539144158363342,
+    "response_time": 0.447465181350708,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 43.435386657714844,
+    "motion_score": 2.695720672607422
+  },
+  {
+    "timestamp": "2026-04-05T13:26:02.520917",
+    "severity": "MINOR",
+    "confidence": 0.7663617134094238,
+    "response_time": 0.48956871032714844,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 44.561191134982636,
+    "motion_score": 3.3180854320526123
+  },
+  {
+    "timestamp": "2026-04-05T13:26:03.209508",
+    "severity": "MINOR",
+    "confidence": 0.7650014758110046,
+    "response_time": 0.4300413131713867,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 44.5324838426378,
+    "motion_score": 3.250075101852417
+  },
+  {
+    "timestamp": "2026-04-05T13:26:03.839306",
+    "severity": "MINOR",
+    "confidence": 0.7727487087249756,
+    "response_time": 0.3858153820037842,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 45.27834786309136,
+    "motion_score": 3.637437105178833
+  },
+  {
+    "timestamp": "2026-04-05T13:26:04.513474",
+    "severity": "MINOR",
+    "confidence": 0.7743591070175171,
+    "response_time": 0.41750383377075195,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 45.44014104207357,
+    "motion_score": 3.7179551124572754
+  },
+  {
+    "timestamp": "2026-04-05T13:26:05.246290",
+    "severity": "MINOR",
+    "confidence": 0.7733127474784851,
+    "response_time": 0.4594724178314209,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 45.21918826633029,
+    "motion_score": 3.665637493133545
+  },
+  {
+    "timestamp": "2026-04-05T13:26:05.946920",
+    "severity": "MINOR",
+    "confidence": 0.7817060947418213,
+    "response_time": 0.4386868476867676,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 46.140877617730034,
+    "motion_score": 4.0853047370910645
+  },
+  {
+    "timestamp": "2026-04-05T13:26:06.663996",
+    "severity": "MINOR",
+    "confidence": 0.78616863489151,
+    "response_time": 0.44742655754089355,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 46.53787400987413,
+    "motion_score": 4.308433532714844
+  },
+  {
+    "timestamp": "2026-04-05T13:26:07.344586",
+    "severity": "MINOR",
+    "confidence": 0.793545663356781,
+    "response_time": 0.42389893531799316,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 47.368348863389755,
+    "motion_score": 4.677283763885498
+  },
+  {
+    "timestamp": "2026-04-05T13:26:08.011621",
+    "severity": "MINOR",
+    "confidence": 0.7996607422828674,
+    "response_time": 0.44653916358947754,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 47.929071214463974,
+    "motion_score": 4.983036994934082
+  },
+  {
+    "timestamp": "2026-04-05T13:26:08.640158",
+    "severity": "MINOR",
+    "confidence": 0.7972719073295593,
+    "response_time": 0.3857574462890625,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 47.7636464436849,
+    "motion_score": 4.863595008850098
+  },
+  {
+    "timestamp": "2026-04-05T13:26:09.241230",
+    "severity": "MINOR",
+    "confidence": 0.8042353391647339,
+    "response_time": 0.3947482109069824,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 48.53182813856337,
+    "motion_score": 5.21176815032959
+  },
+  {
+    "timestamp": "2026-04-05T13:26:09.871312",
+    "severity": "MINOR",
+    "confidence": 0.8117479681968689,
+    "response_time": 0.4345555305480957,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 59.401685078938804,
+    "motion_score": 5.587397575378418
+  },
+  {
+    "timestamp": "2026-04-05T13:26:10.548614",
+    "severity": "MAJOR",
+    "confidence": 0.8338678479194641,
+    "response_time": 0.4137692451477051,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 61.4426646762424,
+    "motion_score": 6.693392276763916
+  },
+  {
+    "timestamp": "2026-04-05T13:26:13.872550",
+    "severity": "MINOR",
+    "confidence": 0.8374897837638855,
+    "response_time": 0.527533769607544,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 51.92313130696615,
+    "motion_score": 6.874488830566406
+  },
+  {
+    "timestamp": "2026-04-05T13:26:14.556627",
+    "severity": "MINOR",
+    "confidence": 0.8342981934547424,
+    "response_time": 0.40417981147766113,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 51.4845085144043,
+    "motion_score": 6.71491003036499
+  },
+  {
+    "timestamp": "2026-04-05T13:26:15.218235",
+    "severity": "MINOR",
+    "confidence": 0.8326593637466431,
+    "response_time": 0.3974752426147461,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 51.474054124620224,
+    "motion_score": 6.632968902587891
+  },
+  {
+    "timestamp": "2026-04-05T13:26:15.895826",
+    "severity": "MINOR",
+    "confidence": 0.8320649266242981,
+    "response_time": 0.4188854694366455,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 51.28635830349393,
+    "motion_score": 6.603248596191406
+  },
+  {
+    "timestamp": "2026-04-05T13:26:16.561509",
+    "severity": "MINOR",
+    "confidence": 0.8343731760978699,
+    "response_time": 0.4113154411315918,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 51.54582383897569,
+    "motion_score": 6.718659400939941
+  },
+  {
+    "timestamp": "2026-04-05T13:26:17.202010",
+    "severity": "MAJOR",
+    "confidence": 0.8374378681182861,
+    "response_time": 0.4152390956878662,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 61.886255476209854,
+    "motion_score": 6.871893405914307
+  },
+  {
+    "timestamp": "2026-04-05T13:26:20.414002",
+    "severity": "MINOR",
+    "confidence": 0.8351502418518066,
+    "response_time": 0.4015495777130127,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 51.522296057807075,
+    "motion_score": 6.757513523101807
+  },
+  {
+    "timestamp": "2026-04-05T13:26:21.068082",
+    "severity": "MINOR",
+    "confidence": 0.8361104130744934,
+    "response_time": 0.39935803413391113,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "severity_score": 51.6011717054579,
+    "motion_score": 6.805522918701172
+  },
+  {
+    "timestamp": "2026-04-05T13:26:21.734571",
+    "severity": "MAJOR",
+    "confidence": 0.8381509780883789,
+    "response_time": 0.38054823875427246,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 61.77755440606011,
+    "motion_score": 6.907548427581787
+  },
+  {
+    "timestamp": "2026-04-05T13:26:22.413355",
+    "severity": "MAJOR",
+    "confidence": 0.8342521786689758,
+    "response_time": 0.4200267791748047,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "severity_score": 61.48869323730469,
+    "motion_score": 6.712608814239502
+  },
+  {
+    "accident_id": "ACC_1775376390_1",
+    "timestamp": "2026-04-05T13:36:30.543560",
+    "severity": "MINOR",
+    "severity_score": 50.209745195176865,
+    "confidence": 0.8258854150772095,
+    "response_time": 0.4501502513885498,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "motion_score": 6.294270992279053,
+    "location": "Roundabout, Central Square"
+  },
+  {
+    "accident_id": "ACC_1775376402_2",
+    "timestamp": "2026-04-05T13:36:42.661239",
+    "severity": "MINOR",
+    "severity_score": 59.220091726620616,
+    "confidence": 0.8057413101196289,
+    "response_time": 0.4162564277648926,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "motion_score": 5.287066459655762,
+    "location": "Downtown Intersection, Main St & 5th Ave"
+  },
+  {
+    "accident_id": "ACC_1775376415_3",
+    "timestamp": "2026-04-05T13:36:55.104685",
+    "severity": "MINOR",
+    "severity_score": 58.991910722520615,
+    "confidence": 0.8069785833358765,
+    "response_time": 0.41002464294433594,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "motion_score": 5.348928928375244,
+    "location": "Tunnel Entry, Holland Tunnel"
+  },
+  {
+    "accident_id": "ACC_1775376427_4",
+    "timestamp": "2026-04-05T13:37:07.280519",
+    "severity": "MINOR",
+    "severity_score": 56.75751495361328,
+    "confidence": 0.8817254900932312,
+    "response_time": 0.4146006107330322,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "motion_score": 9.086276054382324,
+    "location": "School Zone, Oak Street"
+  },
+  {
+    "accident_id": "ACC_1775376439_5",
+    "timestamp": "2026-04-05T13:37:19.583201",
+    "severity": "MINOR",
+    "severity_score": 51.896083407931854,
+    "confidence": 0.8372398614883423,
+    "response_time": 0.4120650291442871,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "motion_score": 6.861994743347168,
+    "location": "Bridge Crossing, Golden Gate"
+  },
+  {
+    "accident_id": "ACC_1775376452_6",
+    "timestamp": "2026-04-05T13:37:32.222632",
+    "severity": "MINOR",
+    "severity_score": 56.67834684583876,
+    "confidence": 0.7889915704727173,
+    "response_time": 0.39325523376464844,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "motion_score": 4.449579238891602,
+    "location": "Roundabout, Central Square"
+  },
+  {
+    "accident_id": "ACC_1775376974_1",
+    "timestamp": "2026-04-05T13:46:14.333524",
+    "severity": "MINOR",
+    "severity_score": 50.209745195176865,
+    "confidence": 0.8258854150772095,
+    "response_time": 0.4248836040496826,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "motion_score": 6.294270992279053,
+    "location": "Roundabout, Central Square"
+  },
+  {
+    "accident_id": "ACC_1775376986_2",
+    "timestamp": "2026-04-05T13:46:26.739179",
+    "severity": "MINOR",
+    "severity_score": 58.8287865613363,
+    "confidence": 0.8040248155593872,
+    "response_time": 0.37354135513305664,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "motion_score": 5.201240539550781,
+    "location": "Tunnel Entry, Holland Tunnel"
+  },
+  {
+    "accident_id": "ACC_1775376998_3",
+    "timestamp": "2026-04-05T13:46:38.870187",
+    "severity": "MINOR",
+    "severity_score": 59.50452474171148,
+    "confidence": 0.8095948100090027,
+    "response_time": 0.383328914642334,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "motion_score": 5.479740619659424,
+    "location": "Roundabout, Central Square"
+  },
+  {
+    "accident_id": "ACC_1775377011_4",
+    "timestamp": "2026-04-05T13:46:51.285361",
+    "severity": "MAJOR",
+    "severity_score": 67.08063888549805,
+    "confidence": 0.8838337063789368,
+    "response_time": 0.3989107608795166,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "motion_score": 9.191686630249023,
+    "location": "Tunnel Entry, Holland Tunnel"
+  },
+  {
+    "accident_id": "ACC_1775382624_1",
+    "timestamp": "2026-04-05T15:20:24.348574",
+    "severity": "MINOR",
+    "severity_score": 50.209745195176865,
+    "confidence": 0.8258854150772095,
+    "response_time": 0.7447302341461182,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "motion_score": 6.294270992279053,
+    "location": "School Zone, Oak Street"
+  },
+  {
+    "accident_id": "ACC_1775382642_2",
+    "timestamp": "2026-04-05T15:20:42.037028",
+    "severity": "MINOR",
+    "severity_score": 49.16052500475375,
+    "confidence": 0.8099671006202698,
+    "response_time": 0.8012456893920898,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "motion_score": 5.498353958129883,
+    "location": "Highway Exit 24, North Side"
+  },
+  {
+    "accident_id": "ACC_1775382656_3",
+    "timestamp": "2026-04-05T15:20:56.536590",
+    "severity": "MINOR",
+    "severity_score": 48.86408510598522,
+    "confidence": 0.7996249794960022,
+    "response_time": 0.6547775268554688,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "motion_score": 4.981247901916504,
+    "location": "Tunnel Entry, Holland Tunnel"
+  },
+  {
+    "accident_id": "ACC_1775382670_4",
+    "timestamp": "2026-04-05T15:21:10.596038",
+    "severity": "MINOR",
+    "severity_score": 59.88157992892795,
+    "confidence": 0.8137940764427185,
+    "response_time": 0.7521853446960449,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "motion_score": 5.689704418182373,
+    "location": "Roundabout, Central Square"
+  },
+  {
+    "timestamp": "2026-04-05T15:26:02.621975",
+    "severity": "MINOR",
+    "confidence": 0.825364351272583,
+    "response_time": 0.712822437286377,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "location": "Tunnel Entry, Holland Tunnel"
+  },
+  {
+    "timestamp": "2026-04-05T15:26:18.540719",
+    "severity": "MINOR",
+    "confidence": 0.8090294003486633,
+    "response_time": 0.7171957492828369,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "location": "Bridge Crossing, Golden Gate"
+  },
+  {
+    "timestamp": "2026-04-05T15:26:32.327112",
+    "severity": "MINOR",
+    "confidence": 0.7988797426223755,
+    "response_time": 0.7768054008483887,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "location": "Highway Exit 24, North Side"
+  },
+  {
+    "timestamp": "2026-04-05T15:26:46.760304",
+    "severity": "MINOR",
+    "confidence": 0.811437726020813,
+    "response_time": 0.7324750423431396,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "location": "Bridge Crossing, Golden Gate"
+  },
+  {
+    "timestamp": "2026-04-05T15:27:07.289390",
+    "severity": "MAJOR",
+    "confidence": 0.9625354409217834,
+    "response_time": 1.1320312023162842,
+    "vehicle_count": 5,
+    "license_plate": null,
+    "location": "School Zone, Oak Street"
+  },
+  {
+    "timestamp": "2026-04-05T15:27:31.441404",
+    "severity": "MAJOR",
+    "confidence": 0.8928483128547668,
+    "response_time": 1.6297075748443604,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "location": "Tunnel Entry, Holland Tunnel"
+  },
+  {
+    "timestamp": "2026-04-05T15:27:55.344091",
+    "severity": "MAJOR",
+    "confidence": 0.8554275035858154,
+    "response_time": 1.1960105895996094,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "location": "School Zone, Oak Street"
+  },
+  {
+    "timestamp": "2026-04-05T15:28:17.772029",
+    "severity": "MINOR",
+    "confidence": 0.7539144158363342,
+    "response_time": 0.8734986782073975,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "location": "Highway Exit 24, North Side"
+  },
+  {
+    "timestamp": "2026-04-05T15:28:39.607823",
+    "severity": "MINOR",
+    "confidence": 0.7996607422828674,
+    "response_time": 1.5502872467041016,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "location": "School Zone, Oak Street"
+  },
+  {
+    "timestamp": "2026-04-05T15:29:02.368142",
+    "severity": "MINOR",
+    "confidence": 0.8326593637466431,
+    "response_time": 1.1547021865844727,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "location": "Tunnel Entry, Holland Tunnel"
+  },
+  {
+    "timestamp": "2026-04-05T15:29:21.549544",
+    "severity": "MAJOR",
+    "confidence": 0.8312941789627075,
+    "response_time": 1.3721494674682617,
+    "vehicle_count": 4,
+    "license_plate": null,
+    "location": "Roundabout, Central Square"
+  },
+  {
+    "timestamp": "2026-04-05T15:29:55.033103",
+    "severity": "MINOR",
+    "confidence": 0.8077027201652527,
+    "response_time": 2.055037260055542,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "location": "Tunnel Entry, Holland Tunnel"
+  },
+  {
+    "timestamp": "2026-04-05T17:49:29.491950",
+    "severity": "MINOR",
+    "confidence": 0.825364351272583,
+    "response_time": 0.3484621047973633,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "location": "Downtown Intersection, Main St & 5th Ave"
+  },
+  {
+    "timestamp": "2026-04-05T17:49:41.557756",
+    "severity": "MINOR",
+    "confidence": 0.8050217032432556,
+    "response_time": 0.4002413749694824,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "location": "School Zone, Oak Street"
+  },
+  {
+    "timestamp": "2026-04-05T17:49:53.805383",
+    "severity": "MINOR",
+    "confidence": 0.8087342381477356,
+    "response_time": 0.5233016014099121,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "location": "School Zone, Oak Street"
+  },
+  {
+    "timestamp": "2026-04-05T17:50:05.944290",
+    "severity": "MAJOR",
+    "confidence": 0.8831884264945984,
+    "response_time": 0.3422813415527344,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "location": "Tunnel Entry, Holland Tunnel"
+  },
+  {
+    "timestamp": "2026-04-05T17:50:17.893098",
+    "severity": "MINOR",
+    "confidence": 0.7817060947418213,
+    "response_time": 0.3404269218444824,
+    "vehicle_count": 2,
+    "license_plate": null,
+    "location": "Highway Exit 24, North Side"
+  },
+  {
+    "timestamp": "2026-04-05T17:50:34.015823",
+    "severity": "MINOR",
+    "confidence": 0.8077027201652527,
+    "response_time": 0.43987178802490234,
+    "vehicle_count": 3,
+    "license_plate": null,
+    "location": "Highway Exit 24, North Side"
+  }
+]
